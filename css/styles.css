@@ -1,0 +1,284 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #212121;
+  --secondary-color: #757575;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.2;
+  align-self: center;
+  /* identical to box height */
+}
+.color-one {
+  color: #2196f3;
+}
+.color-two {
+  color: #000000;
+}
+
+.social-links {
+  color: #212121;
+  display: flex;
+  gap: 46px;
+  padding-top: 15px;
+}
+
+.social-links .link:focus {
+  color: #2196f3;
+}
+
+.social-links .link:hover {
+  color: #2196f3;
+}
+
+.contact-links {
+  color: #757575;
+  gap: 50px;
+  padding-top: 15px;
+}
+.contact-links .links:focus {
+  color: #2196f3;
+}
+
+.contact-links .links:hover {
+  color: #2196f3;
+}
+
+.button {
+  width: 140px;
+  height: 70px;
+
+  color: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.button:hover {
+  background-color: #2196f3;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+.navbar .navigation a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+
+  color: var(--main-color, black);
+}
+
+.navbar .contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-color, gray);
+}
+p {
+  color: var(--secondary-color, gray);
+}
+ul {
+  list-style-type: none;
+}
+
+.background-color {
+  background: #2f303a;
+}
+.color-three {
+  color: #ffffff;
+}
+.footer {
+  font-family: "Roboto", sans-serif;
+}
+.footer-address {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+}
+
+.contact-footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+.section-header {
+  height: 80px;
+  justify-content: space-evenly;
+  border: 1px solid #ececec;
+  background: #ffffff;
+  display: flex;
+  margin: auto;
+  padding: 0px 15px;
+}
+.section-one {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  gap: 8px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: auto;
+  list-style-type: none;
+}
+
+.section-two {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  height: 38px;
+  border-radius: 4px;
+  flex-basis: auto;
+}
+
+.section-footer {
+  height: 252px;
+
+  flex-direction: column;
+  margin: auto;
+}
+.section-three {
+  height: 600px;
+
+  background: #2f303a;
+  flex-wrap: wrap;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+
+.lorem-ipsum {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding-top: 800px;
+}
+
+.lorem-ipsum-one {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+.lorem-ipsum-two {
+  display: flex;
+}
+.do-do {
+  display: flex;
+  list-style-type: none;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.do-do-item {
+  display: flex;
+}
+
+.do-do-list {
+  display: flex;
+  gap: 30px;
+}
+.do-do-h2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.team-one {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background: #f5f4fa;
+
+  height: 648px;
+  align-items: center;
+}
+.team-two {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.hero {
+  background: #2f303a;
+
+  height: 600px;
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 34px;
+  line-height: 60px;
+  position: absolute;
+
+  padding: 200px 425px 280px 425px;
+}
+
+.section-four {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  gap: 8px;
+  margin: auto;
+  list-style-type: none;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
