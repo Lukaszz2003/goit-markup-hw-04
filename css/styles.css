@@ -245,6 +245,7 @@ ul {
   display: flex;
   gap: 30px;
   align-items: center;
+  list-style-type: none;
 }
 .hero {
   background: #2f303a;
