@@ -285,12 +285,32 @@ ul {
 
 .klient {
   display: flex;
-  justify-content: center;
+  list-style-type: none;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
   align-items: center;
-  width: 170px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.klient-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.klient-list {
+  display: flex;
+  gap: 30px;
+  width: 150px;
   height: 92px;
-  left: 215px;
-  top: 2493px;
+
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
