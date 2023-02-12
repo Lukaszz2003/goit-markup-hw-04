@@ -245,7 +245,6 @@ ul {
   display: flex;
   gap: 30px;
   align-items: center;
-  list-style-type: none;
 }
 .hero {
   background: #2f303a;
@@ -314,4 +313,9 @@ ul {
   border-radius: 4px;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.logo {
+  background: #f5f4fa;
+  border-radius: 4px;
 }
