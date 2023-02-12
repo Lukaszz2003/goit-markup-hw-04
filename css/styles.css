@@ -282,3 +282,15 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+.klient {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  left: 215px;
+  top: 2493px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
