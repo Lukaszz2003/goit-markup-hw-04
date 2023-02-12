@@ -316,8 +316,11 @@ ul {
 }
 
 .logo-two {
-  background: #6d59d3;
+  background: #f5f4fa;
   border-radius: 4px;
   width: 270px;
   height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
