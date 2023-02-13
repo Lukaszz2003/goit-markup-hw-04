@@ -262,6 +262,8 @@ ul {
 .hero {
   background: #2f303a;
   background-image: url(../images/team.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 600px;
   display: flex;
   color: #ffffff;
