@@ -43,10 +43,14 @@ body {
 }
 
 .contact-links {
-  color: #757575;
   display: flex;
   gap: 50px;
   padding-top: 15px;
+  text-decoration: none;
+}
+
+.links {
+  color: var(--secondary-color, gray);
 }
 
 .icon {
@@ -257,7 +261,7 @@ ul {
 }
 .hero {
   background: #2f303a;
-  background-image: url(./images/team.jpg);
+  background-image: url(../images/team.jpg);
   height: 600px;
   display: flex;
   color: #ffffff;
@@ -266,10 +270,6 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   font-size: 34px;
-  line-height: 60px;
-  position: absolute;
-
-  padding: 200px 425px 280px 425px;
 }
 
 .section-four {
