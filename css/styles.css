@@ -44,8 +44,17 @@ body {
 
 .contact-links {
   color: #757575;
+  display: flex;
   gap: 50px;
   padding-top: 15px;
+}
+
+.icon {
+  fill: #757575;
+}
+
+.contact-links .icon:hover {
+  fill: #2196f3;
 }
 .contact-links .links:focus {
   color: #2196f3;
@@ -248,7 +257,7 @@ ul {
 }
 .hero {
   background: #2f303a;
-  background-image: url(/images/team.jpg);
+  background-image: url(./images/team.jpg);
   height: 600px;
   display: flex;
   color: #ffffff;
