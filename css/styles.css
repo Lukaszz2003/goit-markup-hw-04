@@ -324,6 +324,7 @@ ul {
   border-radius: 4px;
   display: flex;
 }
-.klinet-one {
+.klinet-list {
+  display: flex;
   gap: 30px;
 }
