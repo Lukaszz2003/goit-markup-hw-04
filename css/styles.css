@@ -305,42 +305,21 @@ ul {
   padding-bottom: 94px;
 }
 
-.klient {
+.home__container {
+  height: 400px;
   display: flex;
-  list-style-type: none;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
 }
 
-.klient-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
+.klient__h2 {
+  font-size: 32px;
 }
-
-.klient-list {
-  display: flex;
-  gap: 30px;
-  width: 150px;
+.klient-new {
+  width: 170px;
   height: 92px;
 
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.logo-two {
-  background: #f5f4fa;
-  border-radius: 4px;
-  width: 270px;
-  height: 120px;
-  margin: 25px 102px 25px 102px;
 }
