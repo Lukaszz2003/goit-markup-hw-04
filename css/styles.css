@@ -220,7 +220,8 @@ ul {
 .picture {
   width: 270px;
   height: 120px;
-  align-items: center;
+  justify-content: center;
+  align-content: center;
   background: #f5f4fa;
   border-radius: 4px;
   margin-left: 12px;
