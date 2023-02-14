@@ -224,6 +224,10 @@ ul {
   align-content: center;
   background: #f5f4fa;
   border-radius: 4px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 102px;
+  margin-right: 102px;
 }
 .picture-one {
   justify-content: center;
