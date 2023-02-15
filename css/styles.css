@@ -316,6 +316,7 @@ ul {
 
 .klient__h2 {
   font-size: 32px;
+  justify-content: center;
 }
 .klient-new {
   width: 170px;
