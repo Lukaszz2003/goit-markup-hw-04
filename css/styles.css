@@ -220,13 +220,10 @@ ul {
 .picture {
   width: 270px;
   height: 120px;
-  justify-content: center;
-  align-content: center;
   background: #f5f4fa;
   border-radius: 4px;
 }
 .picture-one {
-  justify-content: center;
   display: flex;
   margin: 0 auto;
 }
