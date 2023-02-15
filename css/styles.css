@@ -311,6 +311,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
+  flex-direction: row;
 }
 
 .klient__h2 {
