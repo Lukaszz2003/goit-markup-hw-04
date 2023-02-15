@@ -223,12 +223,13 @@ ul {
   background: #f5f4fa;
   border-radius: 4px;
   margin: 0 auto;
+  display: flex;
 }
-
+/* 
 .picture-logo {
   display: flex;
   margin: 0 auto;
-}
+} */
 .do-do {
   display: flex;
   list-style-type: none;
