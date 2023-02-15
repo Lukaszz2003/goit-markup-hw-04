@@ -232,6 +232,9 @@ ul {
 
 .picture-logo {
   display: flex;
+  width: 60px;
+  height: 70px;
+  margin: 0 auto;
 }
 .do-do {
   display: flex;
