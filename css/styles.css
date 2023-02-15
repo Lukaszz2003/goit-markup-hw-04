@@ -227,9 +227,6 @@ ul {
 
 .picture-logo {
   display: flex;
-  width: 60px;
-  height: 70px;
-
   flex-direction: row;
 }
 .do-do {
