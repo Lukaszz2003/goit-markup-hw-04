@@ -350,4 +350,5 @@ ul {
 
 .adress {
   display: flex;
+  flex-direction: row;
 }
