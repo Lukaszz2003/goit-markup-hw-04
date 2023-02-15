@@ -312,6 +312,7 @@ ul {
   align-items: center;
   max-width: 1200px;
   flex-direction: row;
+  margin: 0 auto;
 }
 
 .klient__h2 {
