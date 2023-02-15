@@ -342,3 +342,8 @@ ul {
   flex-direction: row;
   margin: 0 auto;
 }
+
+.adress-new {
+  display: flex;
+  flex-direction: column;
+}
