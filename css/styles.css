@@ -227,7 +227,7 @@ ul {
 
 .picture-logo {
   display: flex;
-  flex-direction: row;
+  margin: 0 auto;
 }
 .do-do {
   display: flex;
