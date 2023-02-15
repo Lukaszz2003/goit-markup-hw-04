@@ -317,6 +317,7 @@ ul {
 .klient__h2 {
   font-size: 32px;
   justify-content: center;
+  display: flex;
 }
 .klient-new {
   width: 170px;
@@ -327,4 +328,6 @@ ul {
 }
 .klinet-one {
   gap: 30px;
+  display: flex;
+  justify-content: center;
 }
