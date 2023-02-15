@@ -228,13 +228,15 @@ ul {
 .picture-one {
   justify-content: center;
   display: flex;
+  margin: 0 auto;
 }
 
 .picture-logo {
   display: flex;
   width: 60px;
   height: 70px;
-  margin: 0 auto;
+
+  flex-direction: row;
 }
 .do-do {
   display: flex;
