@@ -229,6 +229,10 @@ ul {
   justify-content: center;
   display: flex;
 }
+
+.picture-logo {
+  display: flex;
+}
 .do-do {
   display: flex;
   list-style-type: none;
