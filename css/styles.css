@@ -308,7 +308,6 @@ ul {
 .home__container {
   height: 400px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
@@ -330,4 +329,6 @@ ul {
   gap: 30px;
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  margin: 0 auto;
 }
