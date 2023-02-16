@@ -18,6 +18,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   align-self: center;
+  margin-left: 215px;
   /* identical to box height */
 }
 .color-one {
@@ -353,7 +354,8 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  display: inline;
+  margin-left: 215px;
+  width: 400px;
 }
 
 .us-icon {
@@ -366,6 +368,11 @@ ul {
 
 .one {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  margin-left: 531px;
 }
 
 .footer-icon {
@@ -373,4 +380,15 @@ ul {
 
   list-style-type: none;
   gap: 10px;
+}
+.start {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
 }
