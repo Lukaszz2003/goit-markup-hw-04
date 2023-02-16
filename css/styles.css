@@ -366,16 +366,11 @@ ul {
 
 .one {
   display: flex;
-
-  align-items: center;
-  justify-content: center;
-  align-items: flex-start;
 }
 
 .footer-icon {
   display: flex;
 
-  flex-direction: row;
   list-style-type: none;
   gap: 10px;
 }
