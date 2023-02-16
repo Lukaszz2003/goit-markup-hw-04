@@ -188,7 +188,7 @@ ul {
 
 .section-footer {
   height: 252px;
-  display: inline;
+  display: flex;
   flex-direction: column;
   margin: 0 auto;
 }
