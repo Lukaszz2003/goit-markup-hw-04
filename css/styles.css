@@ -344,16 +344,6 @@ ul {
   margin: 0 auto;
 }
 
-.adress-new {
-  display: flex;
-  flex-direction: column;
-}
-
-.adress {
-  display: flex;
-  align-items: center;
-}
-
 .us {
   font-family: "Roboto";
   font-style: normal;
