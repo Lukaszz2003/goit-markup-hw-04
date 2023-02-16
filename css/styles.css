@@ -369,6 +369,7 @@ ul {
   margin-left: 530px;
   align-items: center;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .footer-icon {
@@ -378,4 +379,5 @@ ul {
   margin-left: 500px;
   flex-direction: row;
   list-style-type: none;
+  gap: 10px;
 }
