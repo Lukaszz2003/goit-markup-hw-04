@@ -367,6 +367,8 @@ ul {
 .one {
   display: flex;
   margin-left: 530px;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-icon {
