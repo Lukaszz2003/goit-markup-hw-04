@@ -187,9 +187,9 @@ ul {
 
 .section-footer {
   height: 252px;
-
+  display: inline;
   flex-direction: column;
-  margin: auto;
+  margin: 0 auto;
 }
 .section-three {
   height: 600px;
@@ -353,6 +353,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  display: inline;
 }
 
 .us-icon {
@@ -361,4 +362,19 @@ ul {
   justify-content: center;
   gap: 10px;
   margin: 0 auto;
+}
+
+.one {
+  display: flex;
+  margin-left: 530px;
+}
+
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 530px;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 10px;
 }
