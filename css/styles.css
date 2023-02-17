@@ -333,10 +333,11 @@ ul {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   display: flex;
+  --color1: #afb1b8;
 }
 
 .klient-new:hover {
-  fill: var(--color1, #2196f3);
+  --color1: var(#2196f3);
   cursor: pointer;
 }
 .klinet-one {
