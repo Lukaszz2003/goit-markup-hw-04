@@ -381,8 +381,7 @@ ul {
 }
 .start {
   display: flex;
-  text-align: center;
-  justify-content: center;
+  margin-left: 33px;
   color: #ffffff;
   font-family: "Roboto";
   font-style: normal;
