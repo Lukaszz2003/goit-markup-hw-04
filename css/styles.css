@@ -58,6 +58,7 @@ body {
 }
 
 .contact-links .icon:hover {
+  cursor: pointer;
   fill: var(--color5, #2196f3);
 }
 .contact-links .links:focus {
