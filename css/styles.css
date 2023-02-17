@@ -17,6 +17,8 @@ body {
   text-decoration: none;
   font-size: 26px;
   line-height: 1.2;
+  margin: 0 auto;
+  align-self: center;
 }
 .color-one {
   color: #2196f3;
@@ -385,6 +387,7 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
+  padding-bottom: 20px;
 }
 
 .block {
