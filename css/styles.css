@@ -371,8 +371,6 @@ ul {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 400px;
-  margin-left: 531px;
 }
 
 .footer-icon {
@@ -391,4 +389,10 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
+}
+
+.block {
+  display: inline-block;
+  width: 475px;
+  padding: 25px;
 }
