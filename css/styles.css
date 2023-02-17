@@ -4,6 +4,7 @@
 :root {
   --main-color: #212121;
   --secondary-color: #757575;
+  --color1: #2196f3;
 }
 
 body {
@@ -59,7 +60,7 @@ body {
 
 .contact-links .icon:hover {
   cursor: pointer;
-  fill: var(--color5, #2196f3);
+  fill: var(--color1, #2196f3);
 }
 .contact-links .links:focus {
   color: #2196f3;
@@ -335,8 +336,8 @@ ul {
 }
 
 .klient-new:hover {
-  cursor: pointer;
   fill: var(--color1, #2196f3);
+  cursor: pointer;
 }
 .klinet-one {
   gap: 30px;
