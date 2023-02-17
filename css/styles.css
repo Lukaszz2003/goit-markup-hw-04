@@ -335,7 +335,8 @@ ul {
 }
 
 .klient-new:hover {
-  fill: #2196f3;
+  cursor: pointer;
+  fill: var(--color1, #2196f3);
 }
 .klinet-one {
   gap: 30px;
