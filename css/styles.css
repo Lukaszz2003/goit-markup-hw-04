@@ -385,6 +385,13 @@ ul {
   list-style-type: none;
   gap: 10px;
 }
+.svg-icon {
+  --color3: rgba(255, 255, 255, 0.1);
+}
+.svg-icon:hover {
+  --color3: #2196f3;
+  cursor: pointer;
+}
 .footer-icon-new:hover {
   --color3: #2196f3;
   cursor: pointer;
