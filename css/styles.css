@@ -44,7 +44,7 @@ body {
 
 .contact-links {
   display: flex;
-  gap: 50px;
+
   padding-top: 15px;
   text-decoration: none;
 }
@@ -107,7 +107,7 @@ body {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-
+  gap: 10px;
   color: var(--secondary-color, gray);
 }
 p {
@@ -413,4 +413,9 @@ ul {
   background: #ffffff;
   border: 1px solid #eeeeee;
   cursor: pointer;
+}
+.point {
+  list-style-type: none;
+  gap: 20px;
+  display: flex;
 }
