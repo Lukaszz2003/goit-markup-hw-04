@@ -144,7 +144,8 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   /* or 171% */
-
+  display: flex;
+  flex-direction: column;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
 
