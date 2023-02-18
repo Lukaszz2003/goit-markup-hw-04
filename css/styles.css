@@ -144,8 +144,6 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   /* or 171% */
-  display: flex;
-  flex-direction: column;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
 
@@ -338,7 +336,7 @@ ul {
 }
 
 .klient-new:hover {
-  --color1: #2196f3;
+  --color4: #2196f3;
   cursor: pointer;
 }
 .klinet-one {
@@ -382,6 +380,10 @@ ul {
 
   list-style-type: none;
   gap: 10px;
+}
+.footer-icon-new:hover {
+  fill: var(--color4, blue);
+  cursor: pointer;
 }
 .start {
   display: flex;
