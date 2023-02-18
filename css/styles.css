@@ -337,7 +337,7 @@ ul {
 }
 
 .klient-new:hover {
-  --color1: var(#2196f3);
+  --color1: #2196f3;
   cursor: pointer;
 }
 .klinet-one {
