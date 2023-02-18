@@ -187,6 +187,7 @@ ul {
   height: 38px;
   border-radius: 4px;
   flex-basis: auto;
+  padding-top: 180px;
 }
 
 .section-footer {
