@@ -56,6 +56,9 @@ body {
 .icon {
   fill: #757575;
 }
+.icon:hover {
+  --color5: #2196f3;
+}
 
 .contact-links .icon:hover {
   cursor: pointer;
@@ -382,7 +385,7 @@ ul {
   gap: 10px;
 }
 .footer-icon-new:hover {
-  fill: var(--color4, blue);
+  --color3: #2196f3;
   cursor: pointer;
 }
 .start {
