@@ -387,6 +387,7 @@ ul {
 }
 .svg-icon {
   --color3: rgba(255, 255, 255, 0.1);
+  --color4: #ffffff;
 }
 .svg-icon:hover {
   --color3: #2196f3;
